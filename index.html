@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>Portfolio</title>
 </head>
@@ -80,33 +81,48 @@
     <div class="work" id="Work">
         <h1 class="work-title">/ Work & Project</h1>
         <div class="work-container">
-            <div class="work-card">
-                <h2>Kroo Klon</h2>
-                <p>The Practice Game for Klon-Suphab</p>
-                <button><a href="http://webdev.krooklon.com/">See more</a></button>
-            </div>
-            <div class="work-card">
-                <h2>Bootstrap+JS</h2>
-                <p>Learning for future</p>
-                <button><a href="https://ronnayotdev.github.io/WebresponsiveBootstrap/">See more</a></button>
-            </div>
-            <div class="work-card">
-                <h2>Bootstrap5</h2>
-                <p>Responsive Design by Bootstrap5</p>
-                <button><a href="https://ronnayotdev.github.io/ResponsiveFullyBT5/?fbclid=IwAR3XNaJTOohTFGgsQMiGok5sRuLICcf1H07ypL1NWtptUQGUdVotyQi1wq4">See more</a></button>
-            </div>
-            <div class="work-card">
-                <h2>Quedev</h2>
-                <p>JS Toggle nav Hamburger Responsive</p>
-                <button><a href="https://ronnayotdev.github.io/WebJS-Fullyresponsive/">See more</a></button>
-            </div>
-            <div class="work-card">
-                <h2>To-Do-App ReactJS</h2>
-                <p>Learning</p>
-                <button><a href="https://ronnayotdev.github.io/to-do-app/">See more</a></button>
-            </div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    
+                    <a href="https://ronnayotdev.github.io/WebJS-Fullyresponsive/">
+                        <img class="d-block w-100" src="img/JSFully.JPG" alt="First slide"> 
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="https://ronnayotdev.github.io/WebresponsiveBootstrap/">
+                    <img class="d-block w-100" src="img/bootstrapJS.JPG" alt="Second slide">
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="https://ronnayotdev.github.io/ResponsiveFullyBT5">
+                    <img class="d-block w-100" src="img/Bootstrap5.JPG" alt="Third slide">
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="http://webdev.krooklon.com/">
+                    <img class="d-block w-100" src="img/krooklon.JPG" alt="Four slide">
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="https://ronnayotdev.github.io/to-do-app/">
+                    <img class="d-block w-100" src="img/React.JPG" alt="Five slide">
+                    </a>
+                  </div>
+                </div>
+              </div>
         </div>
     </div>
     <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
