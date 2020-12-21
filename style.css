@@ -300,3 +300,6 @@
         text-decoration: none;
         color: #fff;
     }
+    .card:hover{
+        transform: scale(1.2);
+    }
