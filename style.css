@@ -180,25 +180,29 @@
             font-size: 3rem;
         }
         .main-content p{
-            font-size: 1.5rem;
+            font-size: 2rem;
             margin-top: 1rem;
         }
         .main-img-content{
             display: none;
         }
+        .main-btn{
+            font-size: 2.5rem;
+        }
     }
     @media screen and (max-width: 480px){
        
         .main-content h2{
-            font-size: 2rem;
+            font-size: 1.5rem;
         }
         .main-content p{
-            font-size: 2rem;
+            font-size: 1.5rem;
             margin-top: 1.5rem;
         }
         .main-btn{
             padding: 12px 36px;
             margin: 2.5rem 0;
+            font-size: 1rem;
         }
         .main-img-content{
             display: none;
@@ -238,9 +242,11 @@
         ul.skill-content{
             flex-direction: column;
             padding-top: 5rem;
+            
         }
         ul.skill-content li{
             padding: 3rem;
+            font-size: 3rem;
         }
     }
     /* Work css */
@@ -259,58 +265,12 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-    }
-    .work-card{
-        margin: 1rem;
-        height: 525px;
-        width: 400px;
-        border-radius: 4px;
-        background-color: #000000;
-        background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
-        background-size: cover;
-        position: relative;
-        color: #fff;
-        opacity: 0.9;
-    }
-    .work-card:nth-child(2){
-        background-color: #fff;
-    }
-    .work-card:nth-child(3){
-        background-color: #fff;
-    }
-    .work-card:nth-child(4){
-        background-color: #fff;
-    }
-    .work-card:nth-child(5){
-        background-color: #fff;
+        width: 70%;
     }
     .work h2{
         position: absolute;
         top: 350px;
         left: 30px;
-    }
-    .work-card p{
-        position: absolute;
-        top: 400px;
-        left: 30px;
-    }
-    .work-card button{
-        color: #fff;
-        padding: 10px 20px;
-        border: none;
-        outline: none;
-        border-radius: 4px;
-        background: #000;
-        position: absolute;
-        top: 440px;
-        left: 30px;
-        font-size: 1rem;
-        cursor: pointer;
-    }
-    .work-card:hover{
-        transform: scale(1.2);
-        transition: all 0.3s ease-in;
-        cursor: pointer;
     }
     @media screen and (max-width:960px){
         .work{
@@ -320,6 +280,9 @@
             font-size: 2rem;
             margin-top: 12rem;
         }
+        .work-container{
+            width: 100%;
+        }
     }
     @media screen and (max-width:480px){
         .work{
@@ -328,24 +291,12 @@
         .work h1{
             font-size: 2rem;
         }
-        .work-card{
-            width: 300px;
-        }
     }
     ul.contact-content li{
         list-style: none;
     }
-    .work-card a{
-        text-decoration: none;
-        color: #fff;
-    }
+  
     .main-content a{
         text-decoration: none;
         color: #fff;
     }
-
-
-
-   
-   
-    
