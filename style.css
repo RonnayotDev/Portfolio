@@ -56,6 +56,9 @@
 .card{
     margin: 15px;
 }
+.main-img-content img{
+    border-radius: 50%;
+}
 @media screen and (max-width: 960px){
     .navbar-container{
         display: flex;
