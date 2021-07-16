@@ -54,7 +54,7 @@
     transform: scale(1.2);
 }
 .card{
-    padding: 15px;
+    margin: 15px;
 }
 @media screen and (max-width: 960px){
     .navbar-container{
