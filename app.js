@@ -7,7 +7,7 @@ function Hamburger(){
     menuLinks.classList.toggle('active');
 };
 new TypeIt("#simpleUsage", {
-  strings: "This is a simple string.",
+  strings: "Yoo!, I'm Ronnayot Jaisai New Graduate From Silpakorn University Information Technology",
   speed: 50,
   waitUntilVisible: true
 }).go();
